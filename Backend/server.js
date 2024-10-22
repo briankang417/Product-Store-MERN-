@@ -4,7 +4,7 @@ import dotenv from "dotenv"; //need it to connect database
 import { connectDB } from "./config/db.js";
 import path from "path";
 
-import productRoutes from "./routes/product.route.js";
+import productRoutes from "./routes/product.route.js"; //imports product routes
 import userRoutes from "./routes/user.route.js"; //imports user routes
 
 
