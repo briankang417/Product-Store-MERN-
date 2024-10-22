@@ -22,4 +22,4 @@ const productSchema = new mongoose.Schema(
 
 const Product = mongoose.model("Product", productSchema); //says to mongoose you should create a collection called product and use given Product Schema
 //mongoose just wants singular name of collection 
-export default Product;
+export default Product; //same format as user model
